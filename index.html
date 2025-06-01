@@ -13,6 +13,8 @@
         <!-- Anchor Tags for taking u to another webpage or another website -->
         <!-- Strong and Emphasis Tags for making text bold and italic -->
         <!-- Lists - it can be unordered & ordered -->
+        <!-- Table -->
+        <!-- Forms -->
 
         <h1> Heading One </h1>
         <h2> Heading Two </h2>
@@ -37,6 +39,88 @@
             <li> Ordered Item Three </li>
         </ol>
 
+
+        <table>
+            <thead>
+                <tr>
+                    <th> Name </th>
+                    <th> Age </th>
+                    <th> City </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td> John Doe </td>
+                    <td> 30 </td>
+                    <td> New York </td>
+                </tr>
+                <tr>
+                    <td> Jane Smith </td>
+                    <td> 25 </td>
+                    <td> Los Angeles </td>
+                </tr>
+                <tr>
+                    <td> Mike Johnson </td>
+                    <td> 35 </td>
+                    <td> Chicago </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <form action = "process_form.php" method = "POST">
+           <div>
+                <label>First Name</label> 
+                <input type = "text" name = "firstName">
+            </div>
+
+            <br>
+
+            <div>
+                <label>Last Name</label> 
+                <input type = "text" name = "lastName">
+            </div>
+
+            <br>
+
+            <div>
+                <label> Email </label>
+                <input type = "email" name = "email">
+            </div>
+            
+            <br>
+
+            <div>
+                <label> Message </label>
+                <textarea name = "message"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <label> Gender </label>
+                <select name = "Gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label> Age </label>
+                <input type = "number" name = "age" value="18">
+            </div>
+            <br>
+            <div>
+                <label> Birthday </label>
+                <input type = "date" name = "birthday">
+            </div>
+            <br>
+        </form>
+
+        <div style="margin-top: 500px"></div>
         
     </body>
 </html>
