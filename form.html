@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Practice</title>
+</head>
+<body>
+    <form action="https://example.com/submit" method="post">
+        <div>
+            <label> Title </label> <br>
+            <input type="radio" name="title" value="Dr." > Dr.
+            <input type="radio" name="title" value="Mr." > Mr.
+            <input type="radio" name="title" value="Ms." > Ms.
+            <input type="radio" name="title" value="Mrs." > Mrs.
+
+            <br>
+            <br>
+
+            <label >First Name</label> &ensp;
+            <input type="text" name="first_name" placeholder="Enter your first name">
+            <br>
+            <br>
+            <label >Last Name</label> &ensp;
+            <input type="text" name="last_name" placeholder="Enter your last name">
+
+            <br>
+            <br>
+
+        </div>
+
+
+            <label >Email</label> &ensp;
+            <input type="email" name="email" placeholder="Enter your email address">
+            <br>
+            <br>
+
+            <label >Phone Number</label> &ensp;
+            <input type="tel" name="phone" placeholder="Enter your phone number" pattern="[0-9]{4}[0-9]{6}" required>
+            <br>
+            <br>
+            <label >Date of Birth </label> &ensp;
+            <input type="date" name="dob">
+            <br>
+            <br>
+ 
+            <label> Password </label> &ensp;
+            <input type="password" name="password" placeholder="Enter your password" minlength=" 8" maxlength="20" required>
+
+            <br>
+            <br>    
+
+            <label> Degree </label> &ensp;
+            <select name="degree" required>
+                <option value="B.Tech">B.Tech</option>
+                <option value="M.Tech">M.Tech</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="M.Sc">M.Sc</option>
+            </select>
+           
+            <br>
+            <br>
+
+            <label> Message for me </label>
+            <textarea name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+
+            <br>
+            <br>
+
+            <label> Files to submit </label>
+            <input type="file" name="files" accept=".jpg, .jpeg, .png, .pdf">
+
+
+
+
+
+        
+
+        <br>
+        <br>
+        <input type ="reset" value="Reset Form"> &ensp;
+        <input type="submit" value="Submit Form">
+
+    </form>
+    
+</body>
+</html>
