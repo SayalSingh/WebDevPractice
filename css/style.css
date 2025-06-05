@@ -76,24 +76,27 @@ a {
 }
 
 a:hover {
-    color: red;
+    
     font-style: italic;
     font-weight: bolder;
+    color: red;
 }
 
 a:active {
-    color: green;
+   
     font-weight: bolder;
+    color: green;
 }
 .Categories ul {
-    list-style-type: square;
+    
     padding-left: 20px;
     list-style : disc;
-    
+    list-style-type: square;
 }
 
 .Categories li {
-    padding-bottom: 3px;
+    
     border-bottom: #333 solid 1px;
+    padding-bottom: 3px;
 
 }
