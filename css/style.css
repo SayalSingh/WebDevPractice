@@ -45,3 +45,55 @@ body {
     padding: 20px;
     margin: 20px;
 }
+
+.box-2 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    word-spacing: 1em;
+}
+
+.Categories {
+    border: 2px #613434 solid;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.Categories h2 {
+    font-family: 'Georgia', serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+
+}
+a {
+    text-decoration: none;
+    color : black;
+    font-weight: bold;
+}
+
+a:hover {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+a:active {
+    color: green;
+    font-weight: bolder;
+}
+.Categories ul {
+    list-style-type: square;
+    padding-left: 20px;
+    list-style : disc;
+    
+}
+
+.Categories li {
+    padding-bottom: 3px;
+    border-bottom: #333 solid 1px;
+
+}
