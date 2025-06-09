@@ -17,6 +17,10 @@ body {
     margin: auto;
 }
 
+.clr {
+    clear: both;
+}
+
 .box-1 {
    background-color: #333;
    color:#fff;
@@ -128,5 +132,70 @@ a:active {
 
 .button:hover {
     background : red;
+    color: #fff;
+}
+
+.block {
+    float: left;
+    width: 30%;
+    border: 1px solid #090000;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#main-block {
+    float: left;
+    width: 70%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+#side-bar {
+    float: right;
+    width: 30%;
+    background-color: #555555;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.p-box {
+    width : 800px;
+    height: 500px;
+    border: 1px solid #333;
+    margin: 30px;
+    position: relative;
+}
+
+.p-box h1 {
+    position: absolute;
+    top: 60px;
+}
+
+
+.email {
+    position: fixed;
+    bottom: 80px;
+    right: 60px;
+}
+
+
+.button2 {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    border :5px solid rebeccapurple;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1.0%;
+
+}
+
+.button2:hover {
+    background-color : red;
     color: #fff;
 }
